@@ -5,6 +5,6 @@ public class Principal {
 		LibreriaMusical lm = new LibreriaMusical();
 		//Archivos descargados de http://midi-archive.com/
 		lm.agregarArchivos("files/data/midis/");
-		lm.reproducirCancion(90);
+		lm.reproducirCancion(0);
 	}
 }
